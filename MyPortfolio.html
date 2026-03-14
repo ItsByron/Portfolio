@@ -340,6 +340,16 @@
             text-align: center;
             color: var(--cyan);
             font-weight: 900;
+            margin-bottom: 50px;
+
+        }
+        .title-secondtext{
+            font-family: sans-serif;
+            margin-top: 10px;
+            text-align: center;
+            color: var(--text-light);
+            font-weight: 900;
+            margin-bottom: 50px;
         }
 
         /*PORTFOLIO SHOWCASE*/
@@ -616,7 +626,7 @@
 
     <!-- ABOUT Layout-->
     <section id="about">
-        <h1 class="title-text">ABOUT ME</h1>
+        <h1 class="title-text">ABOUT <span class="title-secondtext">ME</span></h1>
         <div class="container-fluid px-5">
             <div class="row align-items-center">
 
@@ -648,7 +658,7 @@
     <!-- PORTFOLIO SHOWCASE Layout -->
     <section id="Project/Certificate">
 
-        <h1 class="title-text">PORTFOLIO SHOWCASE</h1>
+        <h1 class="title-text">PORTFOLIO <span class="title-secondtext">SHOWCASE</span></h1>
 
         <div class="showcase-tabs">
             <div class="showcase-tab active" id="tab-projects" onclick="switchTab('projects')">
@@ -697,7 +707,7 @@
                             <p class="proj-desc">
                                A web app showcasing my information built with HTML, CSS, and JavaScript.
                             </p>
-                            <a href="https://github.com/ItsByron/My-Portfolio.git" class="project-download-btn" target="_blank">
+                            <a href="https://github.com/ItsByron/Portfolio.git" class="project-download-btn" target="_blank">
                                 <i class="fab fa-github"></i> View on GitHub
                             </a>
                         </div>
@@ -789,7 +799,7 @@
     <!-- CONTACT Layout/Design -->
     <section id="contact" style="position:relative;z-index:1;padding:100px 0 60px;">
         <div class="container-fluid px-5">
-            <h1 class="title-text">GET IN TOUCH</h1>
+            <h1 class="title-text">GET IN <span class="title-secondtext">TOUCH</span></h1>
 
             <div style="max-width:500px; margin:2.5rem auto 0; background:rgba(7,21,48,0.9); border:1px solid rgba(0,229,255,0.15); border-radius:16px; padding:2rem;">
 
@@ -852,7 +862,7 @@
         });
 
         /* ---- TYPED TEXT  Script---- */
-        var words            = ['Front End Developer', 'UI / UX Designer', 'Back End Developer'];
+        var words            = ['Full-Stack Developer', 'UI / UX Designer'];
         var wordPerSentence  = 0;
         var characterPerWord = 0;
         var deleting         = false;
